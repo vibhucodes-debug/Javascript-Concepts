@@ -101,7 +101,7 @@ var example = new ExampleClass("Sammie",10);
 example.setSize(12);
 console.log(example.privateName); // undefined
 console.log(example.getName()); // "Samie"
-console.log(example.size); // undefined
+console.log(example.privateSize); // undefined
 console.log(example.getSize()); // 3
 
 
