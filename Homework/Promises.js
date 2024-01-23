@@ -209,3 +209,4 @@ Promise.all([prom1,prom2,prom3])
 .then((result)=>{console.log("All promises resolved.",result)})
 .catch((error)=>{console.log("All promises not resolved.",error)})
 
+
